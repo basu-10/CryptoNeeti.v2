@@ -1,6 +1,13 @@
-db user/pass:	user='user_dbadmin', password='121212',host='localhost',database='crypto_data'
-db cols:		coin_pair, change_24_hour, high, low, volume, last_price, bid, ask, timestamp
-db data format:	'BTC/USDT', 0.01, 50000, 45000, 1000000, 48000, 48500, 47500, '2022-03-18 12:00:00'
+start from terminal.py for full funtionality. 
+start from db_insert.py to only save data. 
+use db_read.py to read the latest data of some selected coins.
+
+Needs the following packages to function:
+mysql
+requests
+pprint
+
+
 
 file working:
 
